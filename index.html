@@ -7,18 +7,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Chronicles&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet"/>
   <style>
     :root {
-      --masters-green: #1a3a2a;
-      --masters-green-mid: #2d5a3d;
-      --masters-green-light: #3d7a52;
-      --masters-yellow: #f5d06e;
-      --masters-yellow-pale: #fdf6e3;
+      /* Calmer, elegant Sunfield-inspired palette */
+      --masters-green: #0b2238;        /* deep navy for header */
+      --masters-green-mid: #214f5a;    /* softer mid tone for bars */
+      --masters-green-light: #6fb1a6;  /* muted teal accent */
+      --masters-yellow: #d8b86e;       /* warm, desaturated gold accent */
+      --masters-yellow-pale: #fbf6ea;  /* very pale cream */
       --white: #ffffff;
-      --off-white: #f8f8f6;
-      --light-gray: #e8e8e4;
-      --mid-gray: #999990;
-      --dark-gray: #333330;
-      --text: #1a1a18;
-      --border: #d0d0c8;
+      --off-white: #fbf7f2;            /* page background */
+      --light-gray: #f1f4f5;
+      --mid-gray: #9aa7ad;
+      --dark-gray: #162226;
+      --text: #0b1719;                 /* very dark teal for text */
+      --border: #e6eaeb;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -33,8 +34,8 @@
 
     /* ── TOP BAR ── */
     .top-bar {
-      background: var(--masters-green);
-      color: var(--masters-yellow);
+      background: var(--masters-green-mid);
+      color: var(--white);
       text-align: center;
       padding: 6px 20px;
       font-size: 0.7rem;
